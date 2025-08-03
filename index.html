@@ -48,6 +48,7 @@
       color: white;
       padding: 10px;
       text-align: center;
+      position: relative;
     }
     .plus-button {
       position: fixed;
@@ -116,9 +117,9 @@
       cursor: pointer;
     }
     .exit-button {
-      position: fixed;
-      top: 20px;
-      left: 20px;
+      position: absolute;
+      top: -2px;
+      left: 10px;
       background: red;
       color: white;
       border: none;
@@ -148,13 +149,15 @@
 </div>
 
 <div id="thirdPage" class="hidden">
-  <div class="top-message" id="topMessage">You can save your Details Temporarily here</div>
+  <div class="top-message" id="topMessage">
+    <button class="exit-button" onclick="confirmExit(event)">Exit</button>
+    You can save your Details Temporarily here
+  </div>
   <div id="noteContainer"></div>
   <div class="center">
     <h2 id="displayName"></h2>
   </div>
   <button class="plus-button" onclick="showNoteBox()">+</button>
-  <button class="exit-button" onclick="confirmExit(event)">Exit</button>
   <div id="noteBox" class="note-dialog hidden">
     <textarea id="noteContent" placeholder="Write something..."></textarea>
     <br>
