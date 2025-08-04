@@ -13,6 +13,6 @@ A lightweight, browser-based app to **temporarily save notes** and details. Buil
 🌐  For Live Demo:
 
 Check out the live version here:  
-👉 [Your Live GitHub Pages URL](https://keerthankamath.github.io/TemporaryMemory.github.io/)
+👉 [Your Live GitHub Pages URL](https://keerthankamathg.github.io/TemporaryMemory.github.io/)
 
 
